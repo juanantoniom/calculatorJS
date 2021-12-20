@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="./my.css">
+  </head>
+  <body>
+  <div class="calculator">
+
+
+      <p id="mydisplay" onchange="cargarLabel()"></p>
+    <div class="wrapper">
+      <button class="number7" type="button" value="7"  onclick="clickNumber(this)"  >7</button>
+      <button class="number8" type="button" value="8"  onclick="clickNumber(this)"  >8</button>
+      <button class="number9" type="button" value="9"  onclick="clickNumber(this)"  >9</button>
+      <button class="operationDivide" type="button" name="dividir" value="/" onclick="clickNumber(this)">/</button>
+
+      <button class="number4" type="button" value="4"  onclick="clickNumber(this)"  >4</button>
+      <button class="number5" type="button" value="5"  onclick="clickNumber(this)"  >5</button>
+      <button class="number6" type="button" value="6"  onclick="clickNumber(this)"  >6</button>
+      <button class="operationMultiply" type="button" name="multiplicar" value="*" onclick="clickNumber(this)">*</button>
+
+      <button class="number1" type="button" value="1"  onclick="clickNumber(this)"  >1</button>
+      <button class="number2" type="button" value="2"  onclick="clickNumber(this)"  >2</button>
+      <button class="number3" type="button" value="3"  onclick="clickNumber(this)"  >3</button>
+      <button class="operationSum" type="button" name="suma" value="+" onclick="clickNumber(this)">+</button>
+
+      <button class="clear" type="button" value="C"  onclick="resetOneandTwoandOperation()"  >C</button>
+      <button class="numer0" type="button" value="0"  onclick="clickNumber(this)"  >0</button>
+      <button class="resultado" type="button" name="resultado" onclick="getNumberTwoandResolve()"id="=">=</button>
+      <button class="operationResta" type="button" name="resta" value="-" onclick="clickNumber(this)">-</button>
+    </div>
+
+  </div>
+
+
+
+
+    <script type="text/javascript" src="myjs.js"></script>
+
+
+
+  </body>
+</html>
